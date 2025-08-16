@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.testimonials{
+    background-color: rgb(58, 59, 60);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15PX 40PX;
+}
+.Title{
+    font-family: sans-serif;
+    font-size:40px ;
+    color: white;
+
+}.testimonials a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 17px;
+}
+
+.buy-button{
+    background-color: rgb(227, 41, 134);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+main{
+   background:linear-gradient(to right,#75e8ae, rgb(43, 222, 254));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text{
+
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 50%;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.product1 img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.product2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.product3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+
+.text1{
+    display: flex;
+  
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+  
+}
+.quote1{
+    
+    margin-right: 10px;
+    font-size: 30px;
+}
+.quote2{
+    margin-right: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: end;
+}
+.arrow-left{
+    padding: 15px ;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.arrow-right{
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px ;
+    border-radius: 50%;
+}
+
+
+
